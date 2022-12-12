@@ -9,12 +9,16 @@ packages = [{include = "flat_info"}]
 [tool.poetry.dependencies]
 python = "^3.10"
 pre-commit = "^2.20.0"
+requests = "^2.28.1"
+bs4 = "^0.0.1"
+aiohttp = "^3.8.3"
 
 
 [tool.poetry.group.dev.dependencies]
 flake8 = "^6.0.0"
 black = "^22.10.0"
 commitizen = "^2.37.1"
+isort = "^5.10.1"
 
 
 [tool.black]
